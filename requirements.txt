@@ -1,0 +1,4 @@
+tensorflow==2.3.0
+pillow
+matplotlib-3.3.3
+tensorboard
