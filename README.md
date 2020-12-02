@@ -5,8 +5,12 @@ Framework to finetune and inference for Image Classification with pretrained mod
 Implemented in Tensorflow 
 
 # Train
-Step 1: Install the requirements \n
+Step 1: Install the requirements 
+
 Step 2: Copy the train images under data/training_set
+
 Step 3: Copy test set under data/test_set
+
 Step 4: Run : Python Train.py --model=VGG19 --epochs=10
+
 Step 5: Inference the model with Image Classification Demo.ipynb
