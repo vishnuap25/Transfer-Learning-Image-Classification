@@ -131,7 +131,7 @@ class Image_Classifier:
     #Created a dense layer for output
     self.outlayers = Dense(self.count_output_classes, activation='softmax')(self.x)
 
-    #Binding vgg layers and custom output layer
+    #Binding pretrained layers with custom output layer
     self.model = Model(inputs=self.model.input, 
               outputs=self.outlayers)
 
